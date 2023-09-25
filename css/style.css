@@ -1,0 +1,203 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  height: 760px;
+  flex-shrink: 0;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px 200px;
+}
+.header__container .logo {
+  width: 122px;
+  height: 53px;
+  flex-shrink: 0;
+}
+.header__container ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.header__container ul a {
+  text-decoration: none;
+  color: #3D4A39;
+  text-decoration: none;
+}
+.header__container ul a :hover {
+  transform: translate(1.1px, 1.1px);
+}
+.header__container ul a :hover p {
+  /* Text_20px (semibold) */
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 20px */
+  text-transform: uppercase;
+}
+.header__container .link__info {
+  display: flex;
+  align-items: center;
+}
+.header__container .facebook {
+  width: 10px;
+  height: 20.575px;
+  flex-shrink: 0;
+  margin-right: 20px;
+}
+.header__container .instagram {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.header__container .phone {
+  display: flex;
+  align-items: center;
+}
+.header__container .phone img {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+.header__container .phone a {
+  text-decoration: none;
+}
+.header__container .phone p {
+  color: #3D4A39;
+  /* Text_20px (semibold) */
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 20px */
+  text-transform: uppercase;
+  margin-left: 20px;
+}
+
+main .section__text {
+  background-image: url(../image/tv-cabinet-modern-living-room-with-armchair-plant-dark-marble-wall-3d-rendering\ 1.png);
+  padding-top: 127px;
+}
+main .section__text .section__info__text {
+  text-align: center;
+}
+main .section__text .section__info__text h1 {
+  width: 446px;
+  color: #FFF;
+  text-align: center;
+  /* Заголовок_H1 */
+  font-family: Lato;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 67.2px */
+  text-transform: uppercase;
+  margin-left: 477px;
+}
+main .section__text .section__info__text p {
+  width: 537px;
+  color: #FFF;
+  text-align: center;
+  /* text_18px (medium) */
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  margin-left: 457px;
+}
+main .section__text .section__info__text button {
+  display: flex;
+  width: 260px;
+  padding: 22px 56px;
+  align-items: flex-start;
+  gap: 10px;
+  background: #AE7B3C;
+  box-shadow: 0px 20px 25px 0px rgba(0, 0, 0, 0.05);
+  margin-left: 567px;
+  margin-top: 40px;
+}
+main .section__text .section__info__text button :hover {
+  transition: 1s;
+  transform: translate(1.1px, 1.1px);
+  background-color: #d6831e;
+}
+main .section__text .section__info__text button p {
+  color: #FFF;
+  /* text_botton */
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 16px */
+  margin-left: 0px;
+}
+
+.card__container {
+  width: 1200px;
+  height: 596px;
+  flex-shrink: 0;
+  margin: 140px 230px;
+}
+.card__container h2 {
+  color: #282B22;
+  text-align: center;
+  margin-bottom: 80px;
+  /* заголовок_H2 */
+  font-family: Raleway;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 125%; /* 57.5px */
+  text-transform: uppercase;
+}
+.card__container .cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card__container .card__block {
+  width: 393px;
+  height: 458px;
+  flex-shrink: 0;
+}
+.card__container .card__block span {
+  color: #282B22;
+  /* Заголовок_H5 */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+  opacity: 0.5;
+}
+.card__container .card__block p {
+  color: #3D4A39;
+  margin-top: 60px;
+  /* Заголовок_H5 */
+  font-family: Raleway;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%; /* 24px */
+}
+.card__container .card__block img {
+  width: 333px;
+  height: 320px;
+  flex-shrink: 0;
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
